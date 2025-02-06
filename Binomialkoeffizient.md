@@ -55,8 +55,8 @@ Für $n$ Fächer und $k$ verschiedene einzuräumende Dinge
 
 $$
 \begin{aligned}
-&n \cdot ... \cdot ? \cdot ... \cdot 1 \\
-=&(n-0) \cdot ... \cdot (n-(k-1)) \\
+&\underbrace{n \cdot ... \cdot ?}_{k} \\
+=&n \cdot ... \cdot (n-(k-1)) \\
 =&\frac
   { n \cdot ... \cdot (n-(k-1)) \cdot (n-k) \cdot ... \cdot 1 }
   { (n-k) \cdot ... \cdot 1 } \\
