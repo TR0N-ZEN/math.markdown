@@ -106,5 +106,5 @@ $$
 \binom{n}{k}
 $$
 
-,gesprochen "*$n$ über $k$*" oder "*$k$ aus $n$*",
+,gesprochen "*n über k*" oder "*k aus n*",
 abgekürzt.
