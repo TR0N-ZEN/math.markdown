@@ -30,7 +30,7 @@ f'(b)=&\lim_{\Delta a → b}
 $$
 
 >Jetzt wäre es praktisch wenn sich $(a-b)$ aus dem Zähler ausklammern lassen würde,
->um den Nenner der wegen des Limes sich dem Wert $0$ annähert.
+>um den Nenner, der wegen des Limes sich dem Wert $0$ annähert, kürzen zu können.
 >
 >Die Frage ist also $a^n - b^n = (a - b) \cdot ?$.
 >
