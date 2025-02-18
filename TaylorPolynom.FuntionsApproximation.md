@@ -231,7 +231,7 @@ $$
 Da diese Annahme alle Bedingungen erfüllt, kann jede $n$-fach differnzierbare Funktion durch ein Polynom $p_n(x)$ approximiert werden.  
 
 
-$$p_n(x) = \sum_{k=0}^n \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k$$  
+$${p_n(x) = \sum_{k=0}^n \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k}$$  
 heißt  **Taylorpolynom $n$-ten Grades**
 
 
