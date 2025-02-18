@@ -193,14 +193,22 @@ $$
   p_n(x)         &= \sum_{k=0}^n \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k
   \quad\text{leite nach } x \text{ ab}\\
 \rArr 
-  (p_n(x))'      &= \bigg( \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k    \Big) \bigg)'\\
-  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k    \Big)'\\
-  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot ((x-x_0)^k)' \Big)\\
-  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot 1 \cdot k \cdot (x-x_0)^{k-1} \Big)\\
-  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot k \cdot (x-x_0)^{k-1} \Big)\\
-  (p_n(x))'      &=        \underbrace{\frac{f^{(0)}(x_0)}{0!} \cdot 0 \cdot (x-x_0)^{0-1}}_{0} + \sum_{k=1}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot k \cdot (x-x_0)^{k-1} \Big)\\
-  (p_n(x))'      &=        \sum_{k=1}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot k \cdot (x-x_0)^{k-1} \Big)\\
-  (p_n(x))'      &=        \sum_{k=1}^n \Big( \frac{f^{(k)}(x_0)}{(k-1)!} \cdot (x-x_0)^{k-1} \Big)\\
+  (p_n(x))'      &= \bigg( \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k    \Big) \bigg)'
+    \quad\text{wende } (a_0x + b_0x)' = (a_0x)' + (b_0x)' \text{ an}\\
+  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k    \Big)'
+    \quad\text{wende } (a_0 \cdot x)' = a_0 \cdot x' \text{ an}\\
+  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot ((x-x_0)^k)' \Big)
+    \quad\text{wende } (x^n)' = n \cdot x^{n-1} \text{ an}\\
+  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot 1 \cdot k \cdot (x-x_0)^{k-1} \Big)
+    \quad\text{}\\
+  (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot k \cdot (x-x_0)^{k-1} \Big)
+    \quad\text{}\\
+  (p_n(x))'      &=        \frac{f^{(0)}(x_0)}{0!} \cdot 0 \cdot (x-x_0)^{0-1} + \sum_{k=1}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot k \cdot (x-x_0)^{k-1} \Big)
+    \quad\text{}\\
+  (p_n(x))'      &=        \sum_{k=1}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot k \cdot (x-x_0)^{k-1} \Big)
+    \quad\text{}\\
+  (p_n(x))'      &=        \sum_{k=1}^n \Big( \frac{f^{(k)}(x_0)}{(k-1)!} \cdot (x-x_0)^{k-1} \Big)
+    \quad\text{}\\
   (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k+1)}(x_0)}{k!} \cdot (x-x_0)^{k} \Big)
 \end{aligned}
 $$
