@@ -107,7 +107,7 @@ $$
 
 und beim Einsetzen von $x_0$ für $x$
 
-$f^{(k)}(x) = f^{(k)}(x_0) \cdot k!$
+${f^{(k)}(x) = f^{(k)}(x_0) \cdot k!}$
 
 ein offensichtlicher Widerspruch,
 
