@@ -186,12 +186,10 @@ auf den gleichen Wert abgebildet werden, also unmissverständlich ausgedrückt:
 
 $$\forall k \in \mathbb{N}, k \leq n : p_n^{(k)}(x_0) = f^{(k)}(x_0)$$  
 
-Also schauen wir mal, ob $p_n$ abgeleitet, also $p_n'$, an der Stelle $x_0$, den gleichen Wert wie $f(x_0)$ hat.
+Also schauen wir mal, ob $p_n$ nach $x$ abgeleitet, also $p_n'$, an der Stelle $x_0$, den gleichen Wert wie $f(x_0)$ hat.
 
 $$
 \begin{aligned}
-  p_n(x)         &= \sum_{k=0}^n \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k
-    \quad\text{leite nach } x \text{ ab}\\
   (p_n(x))'      &= \bigg( \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k    \Big) \bigg)'
     \quad\text{wende } (a_0x + b_0x)' = (a_0x)' + (b_0x)' \text{ an}\\
   (p_n(x))'      &=        \sum_{k=0}^n \Big( \frac{f^{(k)}(x_0)}{k!} \cdot (x-x_0)^k    \Big)'
