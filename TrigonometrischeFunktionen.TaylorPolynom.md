@@ -115,99 +115,97 @@ p_{\exp}(ix) =& p_{\cos}(x) + i \cdot p_{\sin}(x)
 \\
 \sum_{k=0}^{n} \frac{(ix)^k}{k!}
 =&
-          \sum_{k=0}^{n} (-1)^k \cdot \frac{x^{2k}}{(2k)!}
-+ i \cdot \sum_{k=0}^{n} (-1)^k \cdot \frac{x^{2k+1}}{(2k+1)!}
+         \sum_{k=0}^{n} (-1)^k \cdot \frac{x^{2k}}{(2k)!}
++i \cdot \sum_{k=0}^{n} (-1)^k \cdot \frac{x^{2k+1}}{(2k+1)!}
 \\
-  \frac{(ix)^0}{0!}
-+ \frac{(ix)^1}{1!}
-+ \frac{(ix)^2}{2!}
-+ \frac{(ix)^3}{3!}
-+ \frac{(ix)^4}{4!}
-+ \frac{(ix)^5}{5!}
-+ \frac{(ix)^6}{6!}
-+ \frac{(ix)^7}{7!}
-+ \frac{(ix)^8}{8!}
-+ ...
-=&    \frac{x^0}{0!}
-    - \frac{x^2}{2!}
-    + \frac{x^4}{4!}
-    - \frac{x^6}{6!}
-    + \frac{x^8}{8!}
-    + ...
-  +  i \cdot (
-      \frac{x^1}{1!}
-    - \frac{x^3}{3!}
-    + \frac{x^5}{5!}
-    - \frac{x^7}{7!}
-    + ...
+ \frac{(ix)^0}{0!}
++\frac{(ix)^1}{1!}
++\frac{(ix)^2}{2!}
++\frac{(ix)^3}{3!}
++\frac{(ix)^4}{4!}
++\frac{(ix)^5}{5!}
++\frac{(ix)^6}{6!}
++\frac{(ix)^7}{7!}
++\frac{(ix)^8}{8!}
++...
+=&   \frac{x^0}{0!}
+    -\frac{x^2}{2!}
+    +\frac{x^4}{4!}
+    -\frac{x^6}{6!}
+    +\frac{x^8}{8!}
+    +...
+  +i \cdot (
+     \frac{x^1}{1!}
+    -\frac{x^3}{3!}
+    +\frac{x^5}{5!}
+    -\frac{x^7}{7!}
+    +...
   )
 \\
-  \frac{i^0 x^0}{0!}
-+ \frac{i^1 x^1}{1!}
-+ \frac{i^2 x^2}{2!}
-+ \frac{i^3 x^3}{3!}
-+ \frac{i^4 x^4}{4!}
-+ \frac{i^5 x^5}{5!}
-+ \frac{i^6 x^6}{6!}
-+ \frac{i^7 x^7}{7!}
-+ \frac{i^8 x^8}{8!}
-+ ...
-=&    \frac{x^0}{0!}
-    - \frac{x^2}{2!}
-    + \frac{x^4}{4!}
-    - \frac{x^6}{6!}
-    + \frac{x^8}{8!}
-    + ...
-  +
-      i \cdot \frac{x^1}{1!}
-    - i \cdot \frac{x^3}{3!}
-    + i \cdot \frac{x^5}{5!}
-    - i \cdot \frac{x^7}{7!}
-    + ...
+ \frac{i^0 x^0}{0!}
++\frac{i^1 x^1}{1!}
++\frac{i^2 x^2}{2!}
++\frac{i^3 x^3}{3!}
++\frac{i^4 x^4}{4!}
++\frac{i^5 x^5}{5!}
++\frac{i^6 x^6}{6!}
++\frac{i^7 x^7}{7!}
++\frac{i^8 x^8}{8!}
++...
+=&   \frac{x^0}{0!}
+    -\frac{x^2}{2!}
+    +\frac{x^4}{4!}
+    -\frac{x^6}{6!}
+    +\frac{x^8}{8!}
+    +...
+    +i \cdot \frac{x^1}{1!}
+    -i \cdot \frac{x^3}{3!}
+    +i \cdot \frac{x^5}{5!}
+    -i \cdot \frac{x^7}{7!}
+    +...
 \\
-  \frac{    x^0}{0!}
-+ \frac{i^1 x^1}{1!}
-- \frac{    x^2}{2!}
-- \frac{i^1 x^3}{3!}
-+ \frac{    x^4}{4!}
-+ \frac{i^1 x^5}{5!}
-- \frac{    x^6}{6!}
-- \frac{i^1 x^7}{7!}
-+ \frac{    x^8}{8!}
-+ ...
-=&    \frac{  x^0}{0!}
-    - \frac{  x^2}{2!}
-    + \frac{  x^4}{4!}
-    - \frac{  x^6}{6!}
-    + \frac{  x^8}{8!}
-    + ...
-  +
-      \frac{i x^1}{1!}
-    - \frac{i x^3}{3!}
-    + \frac{i x^5}{5!}
-    - \frac{i x^7}{7!}
-    + ...
+ \frac{    x^0}{0!}
++\frac{i^1 x^1}{1!}
+-\frac{    x^2}{2!}
+-\frac{i^1 x^3}{3!}
++\frac{    x^4}{4!}
++\frac{i^1 x^5}{5!}
+-\frac{    x^6}{6!}
+-\frac{i^1 x^7}{7!}
++\frac{    x^8}{8!}
++...
+=&   \frac{  x^0}{0!}
+    -\frac{  x^2}{2!}
+    +\frac{  x^4}{4!}
+    -\frac{  x^6}{6!}
+    +\frac{  x^8}{8!}
+    +...
+    +\frac{i x^1}{1!}
+    -\frac{i x^3}{3!}
+    +\frac{i x^5}{5!}
+    -\frac{i x^7}{7!}
+    +...
 \\
-  \frac{  x^0}{0!}
-+ \frac{i x^1}{1!}
-- \frac{  x^2}{2!}
-- \frac{i x^3}{3!}
-+ \frac{  x^4}{4!}
-+ \frac{i x^5}{5!}
-- \frac{  x^6}{6!}
-- \frac{i x^7}{7!}
-+ \frac{  x^8}{8!}
-+ ...
-=&    \frac{  x^0}{0!}
-    + \frac{i x^1}{1!}
-    - \frac{  x^2}{2!}
-    - \frac{i x^3}{3!}
-    + \frac{  x^4}{4!}
-    + \frac{i x^5}{5!}
-    - \frac{  x^6}{6!}
-    - \frac{i x^7}{7!}
-    + \frac{  x^8}{8!}
-    + ...
+ \frac{  x^0}{0!}
++\frac{i x^1}{1!}
+-\frac{  x^2}{2!}
+-\frac{i x^3}{3!}
++\frac{  x^4}{4!}
++\frac{i x^5}{5!}
+-\frac{  x^6}{6!}
+-\frac{i x^7}{7!}
++\frac{  x^8}{8!}
++...
+=&   \frac{  x^0}{0!}
+    +\frac{i x^1}{1!}
+    -\frac{  x^2}{2!}
+    -\frac{i x^3}{3!}
+    +\frac{  x^4}{4!}
+    +\frac{i x^5}{5!}
+    -\frac{  x^6}{6!}
+    -\frac{i x^7}{7!}
+    +\frac{  x^8}{8!}
+    +...
 \\
 \end{aligned}
 $$
