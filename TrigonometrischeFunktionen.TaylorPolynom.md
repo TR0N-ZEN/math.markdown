@@ -166,6 +166,11 @@ p_{\exp}(ix) &= p_{\cos}(x) + i \cdot p_{\sin}(x)
 -i \cdot \frac{x^7}{7!}
 +...
 \\
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
  \frac{    x^0}{0!}
 +\frac{i^1 x^1}{1!}
 -\frac{    x^2}{2!}
