@@ -128,19 +128,20 @@ p_{\exp}(ix) &= p_{\cos}(x) + i \cdot p_{\sin}(x)
 +\frac{(ix)^7}{7!}
 +\frac{(ix)^8}{8!}
 +...
-&=   \frac{x^0}{0!}
-    -\frac{x^2}{2!}
-    +\frac{x^4}{4!}
-    -\frac{x^6}{6!}
-    +\frac{x^8}{8!}
-    +...
-  +i \cdot (
-     \frac{x^1}{1!}
-    -\frac{x^3}{3!}
-    +\frac{x^5}{5!}
-    -\frac{x^7}{7!}
-    +...
-  )
+&=
+   \frac{x^0}{0!}
+  -\frac{x^2}{2!}
+  +\frac{x^4}{4!}
+  -\frac{x^6}{6!}
+  +\frac{x^8}{8!}
+  +...
++i \cdot (
+   \frac{x^1}{1!}
+  -\frac{x^3}{3!}
+  +\frac{x^5}{5!}
+  -\frac{x^7}{7!}
+  +...
+)
 \\
  \frac{i^0 x^0}{0!}
 +\frac{i^1 x^1}{1!}
@@ -152,17 +153,18 @@ p_{\exp}(ix) &= p_{\cos}(x) + i \cdot p_{\sin}(x)
 +\frac{i^7 x^7}{7!}
 +\frac{i^8 x^8}{8!}
 +...
-&=   \frac{x^0}{0!}
-    -\frac{x^2}{2!}
-    +\frac{x^4}{4!}
-    -\frac{x^6}{6!}
-    +\frac{x^8}{8!}
-    +...
-    +i \cdot \frac{x^1}{1!}
-    -i \cdot \frac{x^3}{3!}
-    +i \cdot \frac{x^5}{5!}
-    -i \cdot \frac{x^7}{7!}
-    +...
+&=
+ \frac{x^0}{0!}
+-\frac{x^2}{2!}
++\frac{x^4}{4!}
+-\frac{x^6}{6!}
++\frac{x^8}{8!}
++...
++i \cdot \frac{x^1}{1!}
+-i \cdot \frac{x^3}{3!}
++i \cdot \frac{x^5}{5!}
+-i \cdot \frac{x^7}{7!}
++...
 \\
  \frac{    x^0}{0!}
 +\frac{i^1 x^1}{1!}
@@ -174,17 +176,18 @@ p_{\exp}(ix) &= p_{\cos}(x) + i \cdot p_{\sin}(x)
 -\frac{i^1 x^7}{7!}
 +\frac{    x^8}{8!}
 +...
-&=   \frac{  x^0}{0!}
-    -\frac{  x^2}{2!}
-    +\frac{  x^4}{4!}
-    -\frac{  x^6}{6!}
-    +\frac{  x^8}{8!}
-    +...
-    +\frac{i x^1}{1!}
-    -\frac{i x^3}{3!}
-    +\frac{i x^5}{5!}
-    -\frac{i x^7}{7!}
-    +...
+&=
+ \frac{  x^0}{0!}
+-\frac{  x^2}{2!}
++\frac{  x^4}{4!}
+-\frac{  x^6}{6!}
++\frac{  x^8}{8!}
++...
++\frac{i x^1}{1!}
+-\frac{i x^3}{3!}
++\frac{i x^5}{5!}
+-\frac{i x^7}{7!}
++...
 \\
  \frac{  x^0}{0!}
 +\frac{i x^1}{1!}
@@ -196,16 +199,17 @@ p_{\exp}(ix) &= p_{\cos}(x) + i \cdot p_{\sin}(x)
 -\frac{i x^7}{7!}
 +\frac{  x^8}{8!}
 +...
-&=   \frac{  x^0}{0!}
-    +\frac{i x^1}{1!}
-    -\frac{  x^2}{2!}
-    -\frac{i x^3}{3!}
-    +\frac{  x^4}{4!}
-    +\frac{i x^5}{5!}
-    -\frac{  x^6}{6!}
-    -\frac{i x^7}{7!}
-    +\frac{  x^8}{8!}
-    +...
+&=
+ \frac{  x^0}{0!}
++\frac{i x^1}{1!}
+-\frac{  x^2}{2!}
+-\frac{i x^3}{3!}
++\frac{  x^4}{4!}
++\frac{i x^5}{5!}
+-\frac{  x^6}{6!}
+-\frac{i x^7}{7!}
++\frac{  x^8}{8!}
++...
 \\
 \end{aligned}
 $$
