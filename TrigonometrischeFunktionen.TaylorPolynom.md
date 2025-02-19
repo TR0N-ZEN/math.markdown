@@ -109,12 +109,12 @@ fällt auf, dass ...
 
 $$
 \begin{aligned}
-e^{ix} =& \cos(x) + i \cdot \sin(x)
+e^{ix} &= \cos(x) + i \cdot \sin(x)
 \\
-p_{\exp}(ix) =& p_{\cos}(x) + i \cdot p_{\sin}(x)
+p_{\exp}(ix) &= p_{\cos}(x) + i \cdot p_{\sin}(x)
 \\
 \sum_{k=0}^{n} \frac{(ix)^k}{k!}
-=&
+&=
          \sum_{k=0}^{n} (-1)^k \cdot \frac{x^{2k}}{(2k)!}
 +i \cdot \sum_{k=0}^{n} (-1)^k \cdot \frac{x^{2k+1}}{(2k+1)!}
 \\
@@ -128,7 +128,7 @@ p_{\exp}(ix) =& p_{\cos}(x) + i \cdot p_{\sin}(x)
 +\frac{(ix)^7}{7!}
 +\frac{(ix)^8}{8!}
 +...
-=&   \frac{x^0}{0!}
+&=   \frac{x^0}{0!}
     -\frac{x^2}{2!}
     +\frac{x^4}{4!}
     -\frac{x^6}{6!}
@@ -152,7 +152,7 @@ p_{\exp}(ix) =& p_{\cos}(x) + i \cdot p_{\sin}(x)
 +\frac{i^7 x^7}{7!}
 +\frac{i^8 x^8}{8!}
 +...
-=&   \frac{x^0}{0!}
+&=   \frac{x^0}{0!}
     -\frac{x^2}{2!}
     +\frac{x^4}{4!}
     -\frac{x^6}{6!}
@@ -174,7 +174,7 @@ p_{\exp}(ix) =& p_{\cos}(x) + i \cdot p_{\sin}(x)
 -\frac{i^1 x^7}{7!}
 +\frac{    x^8}{8!}
 +...
-=&   \frac{  x^0}{0!}
+&=   \frac{  x^0}{0!}
     -\frac{  x^2}{2!}
     +\frac{  x^4}{4!}
     -\frac{  x^6}{6!}
@@ -196,7 +196,7 @@ p_{\exp}(ix) =& p_{\cos}(x) + i \cdot p_{\sin}(x)
 -\frac{i x^7}{7!}
 +\frac{  x^8}{8!}
 +...
-=&   \frac{  x^0}{0!}
+&=   \frac{  x^0}{0!}
     +\frac{i x^1}{1!}
     -\frac{  x^2}{2!}
     -\frac{i x^3}{3!}
