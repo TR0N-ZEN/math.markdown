@@ -218,3 +218,9 @@ $$
 \\
 \end{aligned}
 $$
+
+
+Mit dieser Erkenntnis, lässt sich jede beliebige
+imaginäre Zahl $z$ für $a,b,r \in \mathbb{R}$
+dargestellt durch ${z = a + b \cdot i = r(\cos(\gamma) + i \sin(\gamma))}$,
+auch darstellen durch $z = e^{i\gamma}$.
