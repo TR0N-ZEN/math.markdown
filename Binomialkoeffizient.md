@@ -89,7 +89,7 @@ Man packe nun die verschiedenen Dinge in gleich aussehende, undurchsichtige Scha
 Ich könnte die nun irgendwie ins Regal gestellten Schachteln vertauschen ohne, dass es von außen ersichtlich wäre, ob ich sie vertauscht hab.
 
 Für die Anzahl an Schachteln $k$, ergeben sich nun $k!$ gleich aussehende Anordnungen von Schachteln,
-die sich aber nach entferenen der Schachteln um die verschieden Dinge,
+die sich aber nach entfernen der Schachteln um die verschieden Dinge,
 als unterschiedliche Anordnungen entpuppen würden.
 
 Die Anzahl der optisch ununterscheidbaren Anordnungen
